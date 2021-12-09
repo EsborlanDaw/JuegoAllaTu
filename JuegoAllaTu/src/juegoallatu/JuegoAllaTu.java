@@ -57,9 +57,9 @@ public class JuegoAllaTu {
     public static String[] respuestasAleatorias = {"Atletismo", "Estados Unidos", "Homero", "The Beatles", "Latin",
         "Elvis Presley", "Cuatro años", "George Washington", "Tales de Mileto", "Amazonas", "Everest", "Rusia",
         "Charles Chaplin", "Freddie Mercury", "Ciudad Esmeralda", "Titanic", "Link", "Piratas del Caribe", "Optimus Prime", "Miguel Angel", "Gotico",
-        "Hamlet", "Rocinante", "Japon", "Ecuador", "Grecia", "Waterloo", "Todos para uno y uno para todos", "Diciembre", "Caballo", "Atlético de Madrid",
-        "Breaking Bad", "El Vaticano", "China", "Cuatro años", "Cuatro de julio", "Oda a la Alegria", "1917", "El Pacifico", "Siete lados", "El mosquito", "Jupiter",
-        "Judaismo", "Ballena azul", "Thriller", "Murcielagos", "España", "En Japon, Nagasaki e Hiroshima", "Cambridge,Massachusetts,Estados Unidos", "1440", "El diamante"};
+        "Hamlet", "Rocinante", "Japon", "Ecuador", "Grecia", "Waterloo", "Todos para uno y uno para todos", "Diciembre", "Caballo", "Atletico de Madrid",
+        "Breaking Bad", "El Vaticano", "China", "Cuatro años", "Cuatro de julio", "Oda a la Alegria", "1917", "Pacifico", "Siete lados", "Mosquito", "Jupiter",
+        "Judaismo", "Ballena azul", "Thriller", "Murcielagos", "España", "Nagasaki e Hiroshima", "Cambridge", "1440", "El diamante"};
 
     //Funcion que muestra la introduccion del juego
     public static void mostrarIntroduccion() {
