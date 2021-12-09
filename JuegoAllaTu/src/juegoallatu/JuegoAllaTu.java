@@ -25,7 +25,7 @@ public class JuegoAllaTu {
     public static int nMal;
     //Asignacion nombres de cada maletin
     public static String[] nMaletin = {"Maletin 1", "Maletin 2", "Maletin 3", "Maletin 4", "Maletin 5", "Maletin 6", "Maletin 7",
-        "Maletin 8", "Maletin 8", "Maletin 10", "Maletin 11", "Maletin 12", "Maletin 13", "Maletin 14", "Maletin 15"};
+        "Maletin 8", "Maletin 9", "Maletin 10", "Maletin 11", "Maletin 12", "Maletin 13", "Maletin 14", "Maletin 15"};
     //Asignacion dinero de cada maletin
     public static double[] dMaletin = {0.10, 6000000, 50, 1000000, 50000, 100, 1, 400, 20000, 4000, 700, 20, 30000, 7500, 8000};
     //Vector de preguntas aleatorias
@@ -57,7 +57,7 @@ public class JuegoAllaTu {
     public static String[] respuestasAleatorias = {"Atletismo", "Estados Unidos", "Homero", "The Beatles", "Latin",
         "Elvis Presley", "Cuatro años", "George Washington", "Tales de Mileto", "Amazonas", "Everest", "Rusia",
         "Charles Chaplin", "Freddie Mercury", "Ciudad Esmeralda", "Titanic", "Link", "Piratas del Caribe", "Optimus Prime", "Miguel Angel", "Gotico",
-        "Hamlet", "Rocinante", "Japón", "Ecuador", "Grecia", "Waterloo", "Todos para uno y uno para todos", "Diciembre", "Caballo", "Atlético de Madrid",
+        "Hamlet", "Rocinante", "Japon", "Ecuador", "Grecia", "Waterloo", "Todos para uno y uno para todos", "Diciembre", "Caballo", "Atlético de Madrid",
         "Breaking Bad", "El Vaticano", "China", "Cuatro años", "Cuatro de julio", "Oda a la Alegria", "1917", "El Pacifico", "Siete lados", "El mosquito", "Jupiter",
         "Judaismo", "Ballena azul", "Thriller", "Murcielagos", "España", "En Japon, Nagasaki e Hiroshima", "Cambridge,Massachusetts,Estados Unidos", "1440", "El diamante"};
 
@@ -219,9 +219,10 @@ public class JuegoAllaTu {
         asignacionMaletines(true);
 
         do {
-            System.out.println("Tu es el: " + nMaletinUsuario);
+            System.out.println("Tu maletin es el: " + nMaletinUsuario);
             if (veces < 16) {
                 System.out.println("Ronda: " + veces);
+                System.out.println("Responde a las preguntas sin poner acentos.");
                 generarPreguntasyRespuestasAleatorias();
             }
             veces++;
